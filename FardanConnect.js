@@ -6,6 +6,7 @@ Thanks a lot to
  
 > Allah SWT
 > Fardan Ilham
+> Ferry Kurnia Alamsyah
 
 > Agos ( Killerz Bot )
 > My parents
@@ -66,7 +67,7 @@ const fetch = require('node-fetch')
 const imgbb = require('imgbb-uploader')
 const fromData = require('form-data')
 const speed = require('performance-now')
-const dtod = "6281398860278@s.whatsapp.net"
+const dtod = "6283819082780@s.whatsapp.net"
 const otod = "6282138919347@s.whatsapp.net"
 
     //── 「 Lib 」 ──//
@@ -115,9 +116,9 @@ const autosticker = JSON.parse(fs.readFileSync('./database/autosticker.json'))
 
 ky_ttt = []
 cmhit = []
-autorespon = false
+autorespon = true
 playmusic = false
-antidelete = false
+antidelete = true
 menusimpel = false
 menuall = false
 baterai = {
@@ -152,7 +153,7 @@ var fgi = {
 key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? 
-{ remoteJid: "6281398860278-1613049930@g.us" } : {})
+{ remoteJid: "6283819082780-1613049930@g.us" } : {})
 },
 message: { 
 "videoMessage": { 
@@ -314,10 +315,10 @@ try {
                 api: 'Eror Bruh'
 			},
 			only: {
-				group: 'Perintah Ini Hanya Bisa Ri Gunakan Di Group',
+				group: 'Perintah Ini Hanya Bisa Di Gunakan Di Group',
 				ownerG: 'Hanya Owner',
 				ownerB: 'Khusus Owner!',
-				admin: 'Khusus admins!',
+				admin: 'Khusus admin!',
 				Badmin: 'Jadikan Bot admin!'
 			}
 		}
@@ -371,7 +372,7 @@ let settingstatus = 0;
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await Fardan.setStatus(`||Created By Fax | |Running Time : ${uptime}`).catch((_) => _);
+await Fardan.setStatus(`||Created By Ryutenzo | |Running Time : ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
 }
 		idttt = []
@@ -474,7 +475,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": imageTime //Gambarnye
 					},
-					"title": `${tampilUcapan} ${pushname}`, //Kasih namalu 
+					"title": `${tampilUcapan} ${pushname}`, //Ryutenzo 
 					"description": `${tampilUcapan} ${pushname}`, 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
@@ -495,7 +496,7 @@ const ftrol = {
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `By Fardan`, //Kasih namalu
+                            message: `By Fardan`, //Ryutenzo
                             orderTitle: `By Fardan`,
                             thumbnail: dfrply, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
@@ -531,7 +532,7 @@ const fvid = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6281398860278-1613049930@g.us" } : {}) 
+	 { remoteJid: "6283819082780-1613049930@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -588,7 +589,7 @@ const finv = {
 const fstick = {
 "key": {
 	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "6281398860278-1613049930@g.us",
+      "remoteJid": "6283819082780-1613049930@g.us",
       "fromMe": false,
       "id": "3B64558B07848BD81108C1D14712018E"
     },
@@ -613,7 +614,7 @@ const fgi = {
 	 key: { 
          fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6281398860278-1613049930@g.us" } : {}) 
+	 { remoteJid: "6283819082780-1613049930@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -631,7 +632,7 @@ const ftex = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6281398860278-1613049930@g.us" } : {}) 
+	 { remoteJid: "6283819082780-1613049930@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -646,7 +647,7 @@ const fvoc = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6281398860278-1613049930@g.us" } : {}) 
+	 { remoteJid: "6283819082780-1613049930@g.us" } : {}) 
                 },
 	 message: { 
 		"audioMessage": {
@@ -665,7 +666,7 @@ const fvoc = {
                             itemCount : 2021,
                             status: 1,
                             surface : 1,
-                            message: `Fardan Ilham`, //Kasih namalu
+                            message: `Fardan Ilham`, //Ryutenzo
                             thumbnail: fs.readFileSync('./Fardan.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -719,7 +720,7 @@ options
 
        
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya`
-const daftar2 = '```Ketik Tombol Di Bawah Untuk Mendaftar Ke Database Fardan Zex```'
+const daftar2 = '```Ketik Tombol Di Bawah Untuk Mendaftar Ke Database Ryutenzo```'
 const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🌸𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝙀𝘿 `,},type: 1,},]
 
 const createSerial = (size) => {
@@ -807,7 +808,7 @@ Fardan.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Fardan Ilham_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Ryutenzo*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -820,7 +821,7 @@ Fardan.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Fardan Ilham_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Ryutenzo*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -1180,7 +1181,7 @@ Jika sudah dipahami rules-nya, silakan ketik *.menu* untuk memulai!
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan FaxChan-
 😖🙏
 
-For GitHub : https://github.com/FaxBotz
+For GitHub : https://github.com/Ryutenz0
 YouTube Fardan : https://youtube.com/c/FaxBotz
 `
 sendButLocation(from, `${menu}`, "Fax Dev", {jpegThumbnail:ofrply,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
@@ -1234,91 +1235,91 @@ case 'simple':
                       "title": `SILAHKAN PILIH SALAH SATU COMMAND DIBAWAH`,
  rows: [
                           {
-                              "title": "Maker Menu🪔",
+                              "title": "Maker Menu⚔️",
                               "description": 'Maker Menu, Foto Bergaya',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Nsfww Menu🧧",
+                              "title": "Nsfww Menu⚔️",
                               "description": 'Nsfw Menu, Anime Haram',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Groupp Menu⚗️",
+                              "title": "Groupp Menu⚔️",
                               "description": 'Untuk Pengaturan Group',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Tools Menu🎨",
+                              "title": "Tools Menu⚔️",
                               "description": 'Menu Convert Media To Sticker',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Randomm Menu🎳",
+                              "title": "Randomm Menu⚔️",
                               "description": 'Random Menu, Menu Yang Keren Dan Simpel',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Owner Bot🐣",
-                              "description": 'Owner Bot Fax Chan!',
+                              "title": "Owner Bot⚔️",
+                              "description": 'Owner Bot Ryutenzo!',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Download Menu🎴",
+                              "title": "Download Menu⚔️",
                               "description": 'Untuk Mendownload Berbagai Jenis File',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Source Code⚠️",
+                              "title": "Source Code⚔️",
                               "description": 'Script / Sc Dari Bot FaxBase',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Asupan Menu🏖️️",
+                              "title": "Asupan Menu⚔️",
                               "description": 'Menu Yang Sangad Tydck Ramah',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "TextProme Menu🦈️",
+                              "title": "TextProme Menu⚔️",
                               "description": 'Kreasi Image / Gambar Keren',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Ephoto Menu️🧮",
+                              "title": "Ephoto Menu️⚔️",
                               "description": 'Gambar-Gambar Yang Unik',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Store Menu🛍️️",
+                              "title": "Store Menu⚔️",
                               "description": 'Menu Shop / Store Di Bot',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Soundd Menu🍥️️",
+                              "title": "Soundd Menu⚔️",
                               "description": 'Sound Menu, Sound 1-75',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Dosaa Menu️️🪙",
+                              "title": "Dosaa Menu️️⚔️",
                               "description": 'Menu Penambah Dosa!',
                               "rowId": ""
                               
                            },
                            {
-                              "title": "Funny Menu️️🪅",
+                              "title": "Funny Menu️️⚔️",
                               "description": 'Menu Kegabutan..',
                               "rowId": ""
                               
@@ -1353,7 +1354,7 @@ ${yess}Time : ${timeWib} WIB
 
 
 Rest Api :https://api-helgazex.herokuapp.com
-Github :https://github.com/FaxBotz
+Github :https://github.com/Ryutenzi0
 
 
 ${require('./teks/help').help(prefix, k, pushname)}`
@@ -1397,7 +1398,7 @@ ${yes}Time : ${timeWib} WIB${yes}
 ${yes}FREE REST API${yes}
 ${yes}https://api-helgazex.herokuapp.com${yes}
 ${yes}MY ALL SOSMED${yes}
-${yes}https://github.com/FaxBotz${yes}
+${yes}https://github.com/Ryutenz0${yes}
 
 ${yes}${tampilUcapan}${yes}
 ${yes}Hari : ${week} ${weton}${yes}
@@ -1426,7 +1427,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
               teks = args.join(' ')
               reply('Terima Kasih Telah Melaporkan Bug Pada Owner, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-              Fardan.sendMessage('6281398860278@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              Fardan.sendMessage('6283819082780@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               break
               case 'verify':
 if (isRegistered) return reply(mess.success)
@@ -1572,27 +1573,27 @@ teks += `*${o.name}*\n*Arab:* ${o.arabic}\n*Latin:* ${o.latin}\n*Terjemah:* ${o.
   	   break
 case 'neon':
                 
-                if (!arg) return reply(from, `Penggunaan ${prefix}neon Fardan`, mek)
+                if (!arg) return reply(from, `Penggunaan ${prefix}neon Ryutenzo`, mek)
 				sendMediaURL(from, `https://api-helgazex.herokuapp.com/api/textpro/neon?text=${arg}&apikey=${HelKey}`)
 				break
 case 'graffiti':
                 
-                if (!arg) return reply(from, `Penggunaan ${prefix}graffiti Fardan Ganz`, mek)
+                if (!arg) return reply(from, `Penggunaan ${prefix}graffiti Ryutenzo Ganz`, mek)
 				sendMediaURL(from, `https://api-helgazex.herokuapp.com/api/textpro/graffiti?text=${arg}&text2=Ganz&apikey=${HelKey}`)
 				break			
 case 'joker':
                 
-                if (!arg) return reply(from, `Penggunaan ${prefix}neon Fardan`, mek)
+                if (!arg) return reply(from, `Penggunaan ${prefix}neon Ryutenzo`, mek)
 				sendMediaURL(from, `https://api-helgazex.herokuapp.com/api/textpro/joker?text=${arg}&apikey=${HelKey}`)
 				break
 case 'blackpink':
                 
-                if (!arg) return reply(from, `Penggunaan ${prefix}neon Fardan`, mek)
+                if (!arg) return reply(from, `Penggunaan ${prefix}neon Ryutenzo`, mek)
 				sendMediaURL(from, `https://api-helgazex.herokuapp.com/api/textpro/blackpink?text=${arg}&apikey=${HelKey}`)
 				break   
 case 'logo':
                 
-                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Fardan Store`)
+                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Ryutenzo Store`)
                     txt1 = args[0]
                     txt2 = args[1]
                     getBuffer(`https://api-helgazex.herokuapp.com/api/canvas/gfx3?text=${txt1}&text2=${txt2}&apikey=${HelKey}`).then((gambar) => {
@@ -1602,7 +1603,7 @@ case 'logo':
                     				
 case 'logo1':
                 
-                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Fardan`)
+                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Ryutenzo`)
                     txt1 = args[0]
                     getBuffer(`https://api-helgazex.herokuapp.com/api/canvas/gfx1?text=${txt1}&apikey=${HelKey}`).then((gambar) => {
                         Fardan.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Nih Kak!`, quoted : mek})
@@ -1620,7 +1621,7 @@ case '3d':
                     break               
 case 'matrix':
                 
-                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Fardan`)
+                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Ryutenzo`)
                     txt1 = args[0]
                     getBuffer(`https://api-helgazex.herokuapp.com/api/textpro/matrix?text=${txt1}&apikey=${HelKey}`).then((gambar) => {
                         Fardan.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Nih Kak!`, quoted : mek})
@@ -1657,7 +1658,7 @@ case 'pornhub':
             case 'wolf_g':
             
             reply (mess.wait)
-                    if (args.length == 0) return reply(`Example: ${prefix + command} Fardan`)
+                    if (args.length == 0) return reply(`Example: ${prefix + command} Ryutenzo`)
                     txt1 = args[0]
                     txt2 = args[1]
                  buff = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/${command}?text=${txt1}&text2=${txt2}&apikey=Alphabot`)
@@ -1730,7 +1731,7 @@ case 'pornhub':
                 case 'freefire':
                 
               
-                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Fax Chan`)
+                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Kyu Chan`)
                     txt1 = args[0]
                     getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${settings.lolkey}&text=${txt1}`).then((gambar) => {
                         Fardan.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `                   *Succes*              `, quoted : mek})
@@ -1812,7 +1813,7 @@ break
    
                     anu = await fetchJson(`https://api.lolhuman.xyz/api/random/nama?apikey=${settings.lolkey}`)
                     Fardan = anu.result
-                   sendButMessage(from, Fardan, `Klik Untuk Ke Quotes Selanjutnya`, [
+                   sendButMessage(from, Kyuraz, `Klik Untuk Ke Quotes Selanjutnya`, [
           {
             buttonId: `${prefix + command}`,
             buttonText: {
@@ -2704,7 +2705,7 @@ break
 punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'Disable️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'Enable'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Broadcast By Fardan Ganteng*',
+    footerText: '*Broadcast By Ferry Ganteng*',
     buttons: punten,
     headerType: 1
 }
@@ -2733,7 +2734,7 @@ await Fardan.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: mek}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Broadcast By Fardan Ganteng*',
+    footerText: '*Broadcast By Ferry Ganteng*',
     buttons: punten,
     headerType: 1
 }
@@ -2863,7 +2864,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `sewa`, buttonText: {displayText: 'SEWA BOT'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*Broadcast By Fardan Ganteng*',
+    footerText: '*Broadcast By Ferry Ganteng*',
     buttons: buttons,
     headerType: 1
 }
@@ -3032,7 +3033,6 @@ case 'sewa':
 				memek =`┏━━⬣ 𝐏𝐫𝐢𝐜𝐞 𝐋𝐢𝐬𝐭 𝐎𝐧𝐞✨
 ┃💌 : SEWA 5K/MINGGU
 ┃💌 : SEWA 10K/BLN
-┃💌 : SEWA PERMANEN 25K
 ┗━━⬣
 
 ┏━━⬣ 𝐏𝐫𝐢𝐜𝐞 𝐋𝐢𝐬𝐭 𝐓𝐰𝐨🎋
@@ -3044,9 +3044,9 @@ case 'sewa':
 ┏━━⬣ 𝐌𝐢𝐧𝐚𝐭?𝐂𝐡𝐚𝐭♨️
 ┃💌 : *SERING² DONASI✨*
 ┃💌 : ==============
-┃💌 : wa.me/6281398860278
+┃💌 : wa.me/6283819082780
 ┃💌 : ==============
-┃💌 : Instagram : _*@Fardan_store20*_
+┃💌 : Instagram : _*@ryutenzo_*_
 ┃💌 : YouTube : _*Fardan Zex's*_
 ┗━━⬣`
 				sendButLocation(from, `${memek}`, `${tod}Subscribe Channel\nFardan Zex!!${tod}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'Done 🌌'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
@@ -3056,7 +3056,7 @@ case 'vps':
               
 				runtime = process.uptime()
 				tod = '```'
-				memek =`Fardan Store Promo only Rdp
+				memek =`Ryutenzo Store Promo only Rdp
 OS All Windows!
 
 Garansi 1 Bulan Pnuh!
@@ -3079,7 +3079,7 @@ RAM • vCpu • SSD • NOM
 Note : Free Peng Install An Google Chrome
 
 Minat?Chat
-https://wa.me/6281398860278`
+https://wa.me/6283819082780`
 				sendButLocation(from, `${memek}`, `Subscribe Channel\nFardan Zex!!`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'Done 🌌'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 				break
 case 'jasrun':
@@ -3105,7 +3105,7 @@ case 'donate':
             gopeynya = 'https://e.top4top.io/p_21336v4de1.jpg'
             buff = await getBuffer(gopeynya)
             teksnya = `
-DONASI OM\nSESUNGGUH NYA ORANG YANG MEMBERI LEBIH BAIK DARI MENERIMA ☝\n\nDana ️🎁: 081398860278\nOvo 🎊: 081398860278\nPulsa Tsel 📺: 082138919347\nPulsa Tsel 📺: 081398860278
+DONASI OM\nSESUNGGUH NYA ORANG YANG MEMBERI LEBIH BAIK DARI MENERIMA ☝\n\nDana ️🎁: 083819082780\nOvo 🎊: 083819082780\nPulsa 📺: 083819082780\n
 `
   buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await Fardan.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
